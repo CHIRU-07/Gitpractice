@@ -1,0 +1,29 @@
+
+
+h1{
+    font-style: italic;
+}
+
+h3{
+    font-style: italic ;
+}
+
+.skills{
+    background-color: aquamarine;
+    color: black;
+}
+
+#lang{
+    background-color: magenta;
+    color:black
+}
+
+#str{
+    font-style: italic;
+}
+
+#hob{
+    background-color: bisque;
+    color: black;
+    font-style: italic;
+}
