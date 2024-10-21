@@ -1,0 +1,33 @@
+.container{
+    height:300px;
+    display: flex;
+    background-color: aqua;
+    flex:row wrap ;
+    justify-content: center;
+    align-items: flex-end;
+   
+    row-gap: 20px;
+    column-gap: 30px;
+    
+    
+}
+
+.item1{
+    background-color:palevioletred;
+    color: black;
+    
+    
+    border:2px black solid;
+}
+
+.item2{
+    background-color: palevioletred;
+    color: black;
+    border:2px black solid;
+}
+
+.item3{
+    background-color:palevioletred;
+    color: black;
+    border:2px black solid;
+}

@@ -1,0 +1,18 @@
+.div1{
+    display:flex;
+    flex:row wrap;
+    column-gap: 20px;
+
+}
+
+.p1{
+    text-transform: capitalize;
+    background-color: #D3D3D3;
+    color:black;
+    width:140px;
+    height:35px;
+    padding-top:10px;
+    text-align: center;
+    border-radius:20px;
+    
+}

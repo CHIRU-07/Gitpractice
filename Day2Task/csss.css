@@ -1,0 +1,64 @@
+/* #div1{
+    background-color: white;
+
+    background-image: url("https://i.pinimg.com/736x/0a/25/0c/0a250c8816e7118e07e869ae51c54cc0.jpg");
+    background-repeat: repeat-x;
+    background-position:center;
+    
+}
+
+#p1{
+    text-align: right;
+    color:white;
+    font-size: 18px;
+}
+
+#p2{
+    text-align: center;
+    color:white;
+    font-size: 16px;
+}
+
+#p3{
+    text-align: left;
+    text-transform: uppercase;
+    color:white;
+}
+
+
+
+#h1{
+    text-transform:capitalize;
+    text-decoration: underline white;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+#div2{
+    
+    background: linear-gradient(to right bottom,rgba(64,224,208,1),rgba(64,224,208,0)	);
+}
+
+.gym{
+    background-color: white;
+    height:300px;
+    width:290px;
+    text-align: center;
+    background-size: cover;
+    border: 2px solid blue;
+
+}
+
+.plans{
+    color: #4169E1;
+    font-weight: 800;
+    font-size :24px;
+}
+
+.btext{
+    text-align: center;
+}
+
+ */
+
