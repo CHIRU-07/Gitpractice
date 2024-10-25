@@ -1,0 +1,46 @@
+.header{
+    text-align: center;
+    color:white;
+    background:linear-gradient(to right bottom,rgba(111, 78, 55, 0.967),rgb(218, 160, 109));
+    height:63px;
+    font-size: 28px;
+    text-decoration: underline;
+    padding-top:17px;
+}
+
+.parent{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap:8px;
+    margin-top:20px;
+    background-color: white;
+    
+
+}
+
+.child{
+    border:2px solid black;
+    width:400px;    
+    box-shadow: 2px 2px 8px black;
+    text-align: center ;
+}
+
+img{
+    padding:24px;
+}
+
+.p1{
+    font-size: 23px;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}   
+
+.footer{
+    text-align:center;
+    color:white;
+    background:linear-gradient(to right bottom,rgba(111, 78, 55, 0.967),rgb(218, 160, 109));
+    height:63px;
+    padding-top:20px;
+    
+}
