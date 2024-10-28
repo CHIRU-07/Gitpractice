@@ -1,12 +1,44 @@
 .header{
+    display:flex;
     text-align: center;
     color:white;
     background:linear-gradient(to right bottom,rgba(111, 78, 55, 0.967),rgb(218, 160, 109));
+    justify-content: space-between;
+    
+}
+.navbar{
+    display: flex;
+    gap:18px;
+    align-items: center;
+    padding-right:20px;
+}
+
+    
+
+.title{
+    display: flex;
+    align-content: center;
     height:63px;
     font-size: 28px;
-    text-decoration: underline;
-    padding-top:17px;
+    /* text-decoration: underline; */
+    padding-top:26px;
+    padding-left:20px;
 }
+
+a{
+    text-decoration: none;
+    font-size: 23px;
+    color:rgb(255, 255, 255);
+    
+}   
+
+
+
+
+
+
+
+
 
 .parent{
     display:flex;
