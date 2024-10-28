@@ -1,0 +1,34 @@
+:root{
+    --primarycolor:red;
+    --secondarycolor:black;
+}
+
+
+
+div p{
+    background-color: silver;
+    font-size: 45px;
+} 
+
+v > p{
+    background-color: blue;
+    font-size:30px;
+    
+}
+
+
+div + p{
+    background-color: green;
+    font-weight:900;
+    font-size:25px;
+}
+
+div ~ div + li{
+    background-color: pink;
+    font-size:30px;
+}
+
+div[class="we"]{
+    background-color: var(--primarycolor);
+    color:var(--secondarycolor);
+}
