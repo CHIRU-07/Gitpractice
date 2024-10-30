@@ -1,0 +1,29 @@
+:root{
+    --bgcolortrue:green;
+    --bgcolorfalse:red;
+    --fontweightH:bold;
+}
+
+ol{
+    background-color: lightblue;
+}
+
+ol li{
+     margin:10px;
+}
+
+[data-available="true"]{
+    background-color:var(--bgcolortrue)
+}
+
+[data-available="false"]{
+    background-color: var(--bgcolorfalse)
+}
+
+[data-price="high"]{
+    font-weight: var(--fontweightH)
+}
+
+[data-category="Electronics"]{
+    list-style-type: upper-alpha;
+}
