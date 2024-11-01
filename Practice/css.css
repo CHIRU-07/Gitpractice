@@ -1,47 +1,47 @@
-.container{
-    background-color: yellow;
-    display:flex;
-    height:100px;
-    flex-wrap: wrap;
-    
-    
-    
-}
-
-.i{
-   border: 2px solid black;
-   flex:1 3 200px;
-   height:30px;
-   
-  
-
-}
-
-.item1{
-    background-color: green;
-    order: 2;
-    
-    
-    
-}
-
-.item2{
-    background-color: purple;
-
-}
-
-.item3{
-    background-color:blue;
-    order:1;
-    
-
-}
-
-.item4{
+button{
+    Width:13vw;
+    height:7vh;
+    color: white;
     background-color: blue;
-    order: 2;
-   flex-basis: 100%;
-    align-self: center ;
+    transition:all 2s ease-in-out 0.2s ;
+    font-size: 18px;
+}
+
+button:hover{
+    transform: translate(50px,20px) rotate(30deg) skew(2);
+    width:17vw;
+    height:8vh;
+    background-color: aquamarine;
+    border-radius: 30px;
+    font-size: 20px;
+    color:black;
+
+}
+
+img:hover{
+    transition: 2s ease-in-out 1s;
+    transform: translate(360px,220px) rotate(360deg) scale(1.3);
+}
+
+p{
+    background-color: brown;
+    Width:13vw;
+    height:7vh;
+    transition:all 2s linear 0.2s;
+
     
+    
+}
+
+p:hover{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:white;
+    Width:15vw;
+    height:9vh;
+    transform: translate(80px,40px) rotate(20deg) ;
+
 
 }
