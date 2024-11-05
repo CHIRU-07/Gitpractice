@@ -1,0 +1,52 @@
+img{
+    height:100px;
+    width:100px;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-name: Roll1;
+}
+
+.div1{
+    display:flex;
+}
+
+.img1{
+    margin-top:150px;
+    animation-name: Roll1;
+}
+
+.img2{
+    margin-left:200px;
+    animation-name: Roll2;
+}
+
+@keyframes Roll2{
+    0%{
+       transform: translateX(0px) rotate(0deg);
+    }
+
+    50%{
+       transform: translateX(68vw) rotate(180deg);
+        
+    }
+
+    100%{
+       transform: translateX(0px) rotate(360deg);
+    }
+    }
+
+    @keyframes Roll1{
+        0%{
+            transform:translateY(0px) rotate(0deg);
+        }
+    
+        50%{
+            transform:translateY(61vh) rotate(180deg);
+            
+        }
+    
+        100%{
+            transform:translateY(0px) rotate(360deg);
+        }
+        }
