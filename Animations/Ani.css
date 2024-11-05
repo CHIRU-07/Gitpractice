@@ -1,0 +1,83 @@
+ /* p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100px;
+    height:100px;
+    background-color: red;
+    animation-duration:10s;
+    animation-timing-function: linear;
+    animation-name:Screensaver;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Screensaver{
+    0%{
+        transform: translate(0px,43vh) rotate(0) scale(0.5);
+        background-color: red;
+    }
+
+    25%{
+        transform: translate(47vw,0vh) rotate(360deg) scale(1);
+        border-radius: 50%;
+        background-color: yellow;
+        }
+
+    50%{
+        transform: translate(93vw,45vh) rotate(720deg) scale(0.5);
+        border-radius: 0;
+        background-color: green;
+    }
+
+    75%{
+        transform: translate(47vw,84.5vh) rotate(360deg) scale(1);
+        border-radius: 50%;
+        background-color: yellow;
+    }
+
+    100%{
+        transform:translate(0px,43vh) rotate(0deg) scale(0.5);
+        border-radius: 0;
+        background-color: red;
+    }
+} 
+
+ */
+
+ p{
+    font-size: 20px;
+    animation:3s ease-in;
+    animation-name: Slidein;
+    
+ }
+
+ @keyframes Slidein{
+    0%{
+        translate:150vw 0;
+        scale:200% 1;
+    }
+
+    100%{
+        transform:translatex(0vw) scale(100% 1);
+
+
+    }
+ }
+
+ /* p {
+    animation-duration: 3s;
+    animation-name: slide-in;
+  }
+  
+  @keyframes slide-in {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  } */
+  
