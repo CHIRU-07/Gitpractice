@@ -1,47 +1,39 @@
-button{
-    Width:13vw;
-    height:7vh;
-    color: white;
-    background-color: blue;
-    transition:all 2s ease-in-out 0.2s ;
-    font-size: 18px;
+
+img{
+    margin-top:30px ;
+    margin-left: 14.8vw;
+    transition:all 1.5s linear 0.5s
 }
 
-button:hover{
-    transform: translate(50px,20px) rotate(30deg) skew(2);
-    width:17vw;
-    height:8vh;
-    background-color: aquamarine;
-    border-radius: 30px;
-    font-size: 20px;
-    color:black;
-
-}
-
-img:hover{
-    transition: 2s ease-in-out 1s;
-    transform: translate(360px,220px) rotate(360deg) scale(1.3);
-}
-
-p{
-    background-color: brown;
-    Width:13vw;
-    height:7vh;
-    transition:all 2s linear 0.2s;
-
-    
-    
-}
-
-p:hover{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    color:white;
-    Width:15vw;
+Button{
+    width:8vw;
     height:9vh;
-    transform: translate(80px,40px) rotate(20deg) ;
-
-
+    font-size: 15px;
+    transition:all 2s linear 0.5s;
+    border-radius: 15px;
 }
+
+Button:hover{
+    background-color: lightgreen;
+    border-radius: 30px;
+}
+
+.rotate:hover ~ .image>img{
+    transform: rotate(180deg);
+}
+
+.skew:hover ~ .image>img{
+    transform: skew(180deg);
+}
+
+.scale:hover ~ .image>img{
+    transform: scale(1.2);
+}
+
+.flip:hover ~ .image>img{
+    transform:translatex(500px) rotatex(360deg);
+}
+
+
+
+
